@@ -1,0 +1,13 @@
+[
+    {"genre": "EDM", 
+    "text": "Lots and lots of stuff about EDM here", 
+    "pic": "img/0.png"},
+    {"genre": "Rock", 
+    "text": "Lots and lots of stuff about rock music here",
+    "pic": "img/1.png"
+    },
+    {"genre": "Classical",
+    "text": "Lots and lots of stuff about Classical here", 
+    "pic": "img/2.png"
+    }
+]

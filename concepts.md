@@ -16,6 +16,9 @@
         2. About EDM
         3. About the Author
     2. Find Music
+        1. Post
+        2. Search
+        3. Filter
     3. Find Generes/Artists
 4. Contact
 5. Copyright
