@@ -27,9 +27,12 @@ angular.module("findMusicApp").config(function($locationProvider, $routeProvider
         templateUrl: "/templates/find_music.html",
         controller: "Events"
     })
-    .when("/find_artists", {
+    .when("/find_artists/:id", {
         templateUrl: "/templates/find_artists.html",
     })
+    // .when("/find_artists", {
+    //     templateUrl: "/templates/pagedata/main_template_page.html",
+    // })
     .when("/techno", {
         templateUrl: "/templates/genres/techno.html",
     })

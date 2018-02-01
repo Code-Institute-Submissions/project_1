@@ -8,13 +8,13 @@
         <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="css/day_stylsheet.css" type="text/css" />
+        <link id="stylesheets" rel="stylesheet" href="css/day_stylsheet.css" type="text/css" />
         <script src="bower_components/angular/angular.js" type="text/javascript"></script>
         <script src="bower_components/angular-route/angular-route.js" type="text/javascript"></script>
         <title>NAME HERE</title>
     </head>
     <body data-ng-app="findMusicApp">
-            <nav id="phoneNavbar" class="navbar navbar-inverse navbar-fixed-top">
+        <nav id="phoneNavbar" class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
                     <a href="/project_1" class="navbar-brand">NAME HERE</a>
@@ -27,7 +27,7 @@
                     <ul id="navigationDropdown" class="nav nav-tabs nav-justified navbar-right collapse navbar-collapse">
                         <li><a href="/project_1"> Home </a></li>
                         <li><a href="/find_music">Find Music</a></li>
-                        <li><a href="/find_artists">Find Genres/Artists</a></li>
+                        <li><a class="0" href="/find_artists">Find Genres/Artists</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/contact"> Contact </a></li>
                         <li><a href="/copyright"> Copyright </a></li>
@@ -63,19 +63,28 @@
                     </ul>
                 </div>
             </nav>
-            
+            <div class="dropdown" id="stylesheetDropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Change Color Scheme!
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a id="day">Day</a></li>
+                    <li><a id="night">Night</a></li>
+                    <li><a id="sea">Sea</a></li>
+                    <li><a id="future">Future</a></li>
+                    <li><a id="desert">Desert</a></li>
+                </ul>
+            </div>
         
         <div data-ng-view>
             
         </div>
-    <srcipt>
-        
-    </srcipt>    
     <script src="https://code.jquery.com/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--<script type="text/javascript" src="./templates/pagedata/main_template_script.js"></script>-->
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/controller.js"></script>
     <script type="text/javascript" src="js/service.js"></script>
+    <script type="text/javascript" src="js/logistics.js"></script>
     </body>
 </html>

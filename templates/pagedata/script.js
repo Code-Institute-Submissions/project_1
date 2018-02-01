@@ -10,7 +10,7 @@ $(document).ready(function() {
        let id=$(this).attr("id");
        $("#piccy").attr("src", mydata[id].pic);
        $("#genre").text(mydata[id].genre);
-       $("#music").text(mydata[id].text);
+       $("#music").text(mydata[id].blurb);
    })
     
 });
