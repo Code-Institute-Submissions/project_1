@@ -1,0 +1,17 @@
+[
+    {"genre": "Armin Van Buuren",
+    "image": "./media/img/electro_house_artists/armin_van_buuren.jpg",
+    "imageAlt": "picture_of_arminvanbuuren",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+    "genre_id": "030700"},
+    {"genre": "Tiesto",
+    "image": "./media/img/electro_house_artists/tiesto.jpg",
+    "imageAlt": "picture_of_tiesto",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+    "genre_id": "030701"},
+    {"genre": "Zedd",
+    "image": "./media/img/electro_house_artists/zedd.jpg",
+    "imageAlt": "picture_of_zedd",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+    "genre_id": "030702"}
+]

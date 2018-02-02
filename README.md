@@ -31,13 +31,9 @@ NAME HERE uses **AngularJS** as a routing site for ease of access and to control
 - [Bower](https://bower.io)
 
 ## Testing
-<!--- Prototype code was written and tested using jasmine-->
-<!--- All code used on the site has been tested to ensure everything is working as expected-->
-<!--- Site viewed and tested in the following browsers:-->
-<!--  - Google Chrome-->
-<!--  - Opera-->
-<!--  - Microsoft Edge-->
-<!--  - Mozilla Firefox-->
+- Site viewed and tested in the following browsers:
+  - Google Chrome
+  - Mozilla Firefox
 
 ENTER TESTING HERE USE ABOVE EXAMPLE
 

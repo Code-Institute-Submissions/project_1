@@ -1,6 +1,25 @@
-<h1>This is the contect form!</h1>
-<form>
-    Enter Name: <input type="text" /><br />
-    Enter Email: <input type="text" /><br />
-    <input type="submit" value="submit" /><br />
-</form>
+<div class="container">
+    <h2>Contact Us For Suggestions!</h2>
+    <div class="row-flex">
+        <div class="col-sm-12 card" id="contactCard">
+            <form name="registrationForm" data-ng-submit="submitForm()" novalidate>
+                <div class="form-group">
+                    <lable>Name:</lable>
+                    <input type="text" name="name" class="form-control contactForm" required placeholder="FirstName (Lastname is not required)">
+                    <p data-ng-show="regitrationForm.name.$pristine" class="help-block">Your Name Is Required</p>
+                </div>
+                <div class="form-group">
+                    <lable>Email:</lable>
+                    <input type="email" name="email" class="form-control contactForm" required placeholder="thisemail@email.com">
+                    <p data-ng-show="regitrationForm.password.$pristine" class="help-block">Your Email Is Required</p>
+                </div>
+                <div class="form-group">
+                    <label>Message:</label>
+                    <textarea id="contactMessage" name="message" class="form-control" required placeholder="Message Here!" maxlength="400"></textarea>
+                    <p class="maxlengthMessage">Max Length 400 Characters</p>
+                </div>
+                <button type="submit" class="btn btn-primary" data-ng-disabled="regitrationForm.name.$invalid">Register</button>
+            </form>
+        </div>
+    </div>
+</div>

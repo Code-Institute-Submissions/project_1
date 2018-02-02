@@ -4,7 +4,6 @@ angular.module("findMusicApp").config(function($locationProvider, $routeProvider
     
     $routeProvider.when("/project_1", {
         templateUrl: "/templates/home.html",
-        controller: "Post"
     })
     .when("/copyright", {
         templateUrl: "/templates/copyright.html",
@@ -27,14 +26,14 @@ angular.module("findMusicApp").config(function($locationProvider, $routeProvider
         templateUrl: "/templates/find_music.html",
         controller: "Events"
     })
-    .when("/find_artists/:id", {
+    .when("/find_artists/", {
         templateUrl: "/templates/find_artists.html",
         controller: "informationRouting"
     })
-    // .when("/find_artists/:id", {
-    //     templateUrl: "/templates/find_artists.html",
-    //     controller: "informationContent"
-    // })
+    .when("/find_artists/:id", {
+        templateUrl: "/templates/find_artists.html",
+        controller: "informationContent"
+    })
     .when("/todo/edit/:id", {
         templateUrl: "templates/edit-todo.html",
         controller: "EditTodoController"

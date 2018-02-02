@@ -1,0 +1,42 @@
+[
+    {"image": "ARTIST PICTURE LOCATION",
+    "imageAlt": "IMAGE ALT",
+    "genre": "ARTIST NAME",
+    "discription1": "ARTIST DESCRIPTION",
+    "href1": "FACEBOOK LINK",
+    "href2": "TWITTER LINK",
+    "discription2": "EXTRA DESCRIPTION"
+    "genre_id": ""},
+    {"image": "",
+    "imageAlt": "",
+    "genre": "",
+    "discription1": "",
+    "href1": "",
+    "href2": "",
+    "discription2": ""
+    "genre_id": ""},
+    {"image": "",
+    "imageAlt": "",
+    "genre": "",
+    "discription1": "",
+    "href1": "",
+    "href2": "",
+    "discription2": ""
+    "genre_id": ""},
+    {"image": "",
+    "imageAlt": "",
+    "genre": "",
+    "discription1": "",
+    "href1": "",
+    "href2": "",
+    "discription2": ""
+    "genre_id": ""},
+    {"image": "",
+    "imageAlt": "",
+    "genre": "",
+    "discription1": "",
+    "href1": "",
+    "href2": "",
+    "discription2": ""
+    "genre_id": ""}
+]
