@@ -87,32 +87,67 @@ angular.module("Route", [])
     })
     
     .controller("informationRouting", function($scope, $location, $routeParams, UserAPIService) {
-    $.getJSON("../templates/pagedata/main_template_data.json", {}, function(data) {
-    mydata = data;
-
-    for(i = 0; i < data.length; i++) {
-      let appendString = "<div class='col-xs-6 card'><h3 class='header'>";
-      appendString += mydata[i].genre;
-      appendString += "</h3><img id='image1' class='card_image'";
-      appendString += "alt='" + mydata[i].imageAlt + "' src='";
-      appendString += mydata[i].image + "' />";
-      appendString += "<p class='description'>" + mydata[i].description + "</p>";
-      appendString += "<a class='btn btn-danger btn-sm' href='/find_artists/" + mydata[i].genre_id + "'>More!</a>";
-      appendString += "</div>";
-
-      $("#contentbox").append(appendString);
-    }
-    })
+        let mydata;
+        $.getJSON("../templates/pagedata/main_template_data.json", {}, function(data) {
+        mydata = data;
+        let id = $routeParams.id;
+        $("#title1").text(mydata[id].title1);
+        $("#subtitle1").text(mydata[id].subtitle1);
+        $("#header1").text(mydata[id].header1);
+        $("#image1").attr("src", mydata[id].image1);
+        $("#image1").attr("alt", mydata[id].imageAlt1);
+        $("#discription1").text(mydata[id].discription1);
+        $("#button1").attr("href", mydata[id].button1)
         
-    // .controller("informationContent", function($scope, $location, $routeParams, UserAPIService) {
+        $("#header2").text(mydata[id].header2);
+        $("#image2").attr("src", mydata[id].image2);
+        $("#image2").attr("alt", mydata[id].imageAlt2);
+        $("#discription2").text(mydata[id].discription2);
+        $("#button2").attr("href", mydata[id].button2)
         
-    //     $scope.mydata[i] = w
-    //     if (w == 1){
-            
-    //     }
+        $("#header3").text(mydata[id].header3);
+        $("#image3").attr("src", mydata[id].image3);
+        $("#image3").attr("alt", mydata[id].imageAlt3);
+        $("#discription3").text(mydata[id].discription3);
+        $("#button3").attr("href", mydata[id].button3)
+        
+        $("#header4").text(mydata[id].header4);
+        $("#image4").attr("src", mydata[id].image4);
+        $("#image4").attr("alt", mydata[id].imageAlt4);
+        $("#discription4").text(mydata[id].discription4);
+        $("#button4").attr("href", mydata[id].button4)
+        
+        $("#header5").text(mydata[id].header5);
+        $("#image5").attr("src", mydata[id].image5);
+        $("#image5").attr("alt", mydata[id].imageAlt5);
+        $("#discription5").text(mydata[id].discription5);
+        $("#button5").attr("href", mydata[id].button5)
+        
+        $("#header6").text(mydata[id].header6);
+        $("#image6").attr("src", mydata[id].image6);
+        $("#image6").attr("alt", mydata[id].imageAlt6);
+        $("#discription6").text(mydata[id].discription6);
+        $("#button6").attr("href", mydata[id].button6)
+        
+        $("#header7").text(mydata[id].header7);
+        $("#image7").attr("src", mydata[id].image7);
+        $("#image7").attr("alt", mydata[id].imageAlt7);
+        $("#discription7").text(mydata[id].discription7);
+        $("#button7").attr("href", mydata[id].button7)
+        
+        $("#header8").text(mydata[id].header8);
+        $("#image8").attr("src", mydata[id].image8);
+        $("#image8").attr("alt", mydata[id].imageAlt8);
+        $("#discription8").text(mydata[id].discription8);
+        $("#button8").attr("href", mydata[id].button8)
+        console.log(mydata);
         
         
-        
-    
-    // });
+        $("a").each(function () {
+        var currentA = $(this);
+        if(currentA.attr("href") === "") {
+		    $(this).parent().addClass("hiddenA");
+	    }
+        });
+        }); 
     });

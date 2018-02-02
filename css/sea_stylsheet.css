@@ -1,11 +1,11 @@
 /* MOBILE */
 body{
     padding-top: 55px;
-    background-color: #EDC7B7;
+    background-color: #5680E9;
 }
 
 div{
-    color: #123C69;
+    color: #000000;
 }
 
 .row-flex {
@@ -16,20 +16,16 @@ div{
       flex-wrap: wrap;
 }
 
-
-/* vertical spacing between columns */
-
-/*.content {*/
-/*  height: 100%;*/
-/*  padding: 20px 20px 10px;*/
-/*  color: #fff;*/
-/*}*/
+#stylesheetDropdown{
+    width: 20%;
+    left: 5vw;
+}
 
 /*Navigation Bar*/
 
 
 a{
-    color: #123C69;
+    color: #000000;
 }
 
 .btn-primary:hover{
@@ -37,24 +33,24 @@ a{
     background-color: #eee;
 }
 .navbar-inverse{
-    background-color: #BAB2B5;
+    background-color: #8860D0;
 }
 .navbar-inverse>.container>.navbar-header>a{
-    color: #123C69;
+    color: #000000;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #123C69;
+    color: #000000;
 }
 
 .btn-primary{
-    background-color: #BAB2B5;
-    border-color: #BAB2B5;
-    color: #123C69;
+    background-color: #8860D0;
+    border-color: #8860D0;
+    color: #000000;
 }
 .btn-primary:hover{
-    background-color: #BAB2B5;
-    border-color: #BAB2B5;
-    color: #123C69;
+    background-color: #8860D0;
+    border-color: #8860D0;
+    color: #000000;
 }
 
 .btn-primary.active.focus, .btn-primary.active:focus, 
@@ -65,15 +61,15 @@ a{
 .open>.dropdown-toggle.btn-primary:hover {
     background-color: #eee;
     border-color: #eee #eee #ddd;
-    color: #123C69;
+    color: #000000;
 }
 .btn-primary.focus, .btn-primary:focus {
     background-color: #eee;
     border-color: #eee;
-    color: #123C69;
+    color: #000000;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
-    color: #123C69;
+    color: #000000;
 }
 
 
@@ -92,7 +88,7 @@ h1{
     
 }
 p{
-    color: #123C69;
+    color: #000000;
 }
 
 .eventcontent p,
@@ -113,10 +109,10 @@ p{
 }
 .card{
     box-sizing: border-box;
-    border: 7.5px solid #EDC7B7;
+    border: 7.5px solid #5680E9;
     border-radius: 22.5px;
     padding: 10px;
-    background-color: #EEE2DC;
+    background-color: #5AB9EA;
     /*height: 550px;*/
 }
 .card_image{
@@ -133,26 +129,19 @@ p{
 }
 .eventcontent{
     box-sizing: border-box;
-    border: 7.5px solid #EDC7B7;
+    border: 7.5px solid #5680E9;
     border-radius: 22.5px;
     padding: 10px;
-    background-color: #EEE2DC;
+    background-color: #5AB9EA;
 }
 .eventpost{
     box-sizing: border-box;
     background-color: #123C69;
     color: #FAFAFA;
     padding: 10px;
-    border: 7.5px solid #EEE2DC;
+    border: 7.5px solid #5AB9EA;
     border-radius: 22.5px;
     
-}
-.eventtags{
-    box-sizing: border-box;
-    border: 2px solid #123C69;
-    border-radius: 15px;
-    background-color: #AC3B61;
-    text-align: center;
 }
 .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-8, .col-xs-12{
     /*background-color: rgba(0,0,0,0);*/
@@ -164,7 +153,7 @@ p{
 /* Modal */
 
 #eventModal{
-    color: #123C69;
+    color: #000000;
 }
 
 .modal-content{

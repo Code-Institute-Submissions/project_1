@@ -83,12 +83,15 @@
     
     /*Content*/
     
-    
     h1{
         
     }
     p{
         color: #123C69;
+    }
+    
+    .hiddenA {
+        display: none;
     }
     
     .eventcontent p,
@@ -142,13 +145,6 @@
         border: 7.5px solid #EEE2DC;
         border-radius: 22.5px;
         
-    }
-    .eventtags{
-        box-sizing: border-box;
-        border: 2px solid #123C69;
-        border-radius: 15px;
-        background-color: #AC3B61;
-        text-align: center;
     }
     .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-8, .col-xs-12{
         /*background-color: rgba(0,0,0,0);*/
