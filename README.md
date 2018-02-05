@@ -4,23 +4,32 @@
  
 ### What is this website for?
  
-This website is a music conglomeration/meet up site.
- 
-### What does it do?
- 
-It is a place to learn about EDM music and there respective genres and artists. It is also a place find small music events!
- 
+This page was created as a coding project in 2018! It was made to heml people find EDM music for the people who:
+1. Artists to get there name out there.
+2. Looking for small (or big) house parties, or to have people come to house parties!
+3. Artists to meet people.
+
+It is also a place for people who know nothing or a lot about EDM to find new genres and artists that go along with them!
+
 ### How does it work
  
-NAME HERE uses **AngularJS** as a routing site for ease of access and to control **JavaScript** aspects. The styleing is done with **Bootstrap** and **CSS**. The website also uses **jQuery** to ENTER JQUERY ACTIONS and the packages have been mannaged using **Bower**. The website can be found [HERE](LINK HERE!!!)
+NAME HERE uses **AngularJS** as a routing site for ease of access and to control **JavaScript** aspects. The styleing is done with **Bootstrap** and **CSS**. The website also uses **jQuery** to take information from a **JSON** file and put it in the page based on a button ID. Finaly the packages have been mannaged using **Bower**. The website can be found [HERE](https://project-1-krontime.c9users.io/index.html)
 
 ## Features
  
 ### Existing Features
-- ENTER FEATURES HERE
+- Can Create Events
+- Can Find Music and Artists
+- Register
+- Learn About EDM
+- Dynamicly change the CSS stylesheet
+- Mobile Friendly
 
 ### Features Left to Implement
-- ENTER UNFINISHED FEATURES HERE
+- Have an API for the created events so people can see them
+- Have a search bar for the events
+- Have tags for the events and genres/artists
+- have a tag search/filter
 
 ## Tech Used
 
@@ -34,8 +43,6 @@ NAME HERE uses **AngularJS** as a routing site for ease of access and to control
 - Site viewed and tested in the following browsers:
   - Google Chrome
   - Mozilla Firefox
-
-ENTER TESTING HERE USE ABOVE EXAMPLE
 
 ## Contributing
  

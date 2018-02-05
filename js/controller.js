@@ -35,7 +35,7 @@ angular.module("Route", [])
         
     })
     
-    .controller("Events", function($scope, $location, UserDataAPIService) {
+    .controller("Events", function($scope, $location, $filter, UserDataAPIService) {
         
         let URL = "https://morning-castle-91468.herokuapp.com/";
         $scope.authToken = localStorage.getItem("authToken");
@@ -49,6 +49,9 @@ angular.module("Route", [])
             $scope.events.unshift(JSON.parse(localStorage.getItem("event"+lastEvent)));
             lastEvent++;
         }
+        
+        var retrievedData = JSON.parse(localStorage.getItem("event"+lastEvent));            
+        var setDateFormat = $filter('date')(new Date((retrievedData[1].substr(6)), 'dd-mm-yyyy'));
         
         JSON.parse(localStorage.getItem("event")) || [];
         
