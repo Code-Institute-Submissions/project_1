@@ -50,8 +50,7 @@ angular.module("Route", [])
             lastEvent++;
         }
         
-        var retrievedData = JSON.parse(localStorage.getItem("event"+lastEvent));            
-        var setDateFormat = $filter('date')(new Date((retrievedData[1].substr(6)), 'dd-mm-yyyy'));
+        
         
         JSON.parse(localStorage.getItem("event")) || [];
         
